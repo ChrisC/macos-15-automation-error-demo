@@ -13,7 +13,7 @@ jobs:
     continue-on-error: true
     strategy:
       matrix:
-        os: [macos-13, macos-14, macos-15, macos-15-xlarge]
+        os: [macos-13, macos-14, macos-15]
     steps:
       - uses: actions/checkout@v3
       - run: |
