@@ -27,8 +27,8 @@ jobs:
               sudo bash -c 'echo -n "a" > /private/var/db/Accessibility/.VoiceOverAppleScriptEnabled'
 
               # Attempt to manually update VO Applescript settings
-              # echo "Attempting to manually update VO Utility settings..."
-              # /usr/bin/osascript voiceOverSettings.applescript
+              echo "Attempting to manually update VO Utility settings..."
+              /usr/bin/osascript voiceOverSettings.applescript
 
               # sleep 1 
 
